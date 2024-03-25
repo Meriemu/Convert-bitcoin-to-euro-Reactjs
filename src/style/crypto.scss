@@ -1,0 +1,179 @@
+$color_1: #ccc;
+$color_2: #fff;
+$background-color_1: #111010;
+$background-color_2: #1e1e1e;
+$background-color_3: #2e2e2e;
+$background-color_4: #bd8400;
+$background-color_5: #3e8e41;
+
+/* .Crypto__Calculator {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.Crypto__Calculator input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.Crypto__Calculator button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Crypto__Calculator button:hover {
+  background-color: #45a049;
+}
+
+.Crypto__Calculator .btc-logo {
+  width: 50px;
+  height: 50px;
+  background: url(https://cdn.pixabay.com/photo/2017/01/25/12/31/bitcoin-2007769_960_720.jpg);
+  background-size: contain;
+  float: left;
+  margin-right: 10px;
+}
+
+.Crypto__Calculator .result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+} */
+body {
+  background-color: $background-color_1;
+}
+.Crypto__Calculator {
+  display: flex;
+  width: 800px;
+  box-shadow: 0px 0px 10px #ccc;
+  //   height: 50vh;
+}
+
+.Crypto__Wrapper {
+  width: 50%;
+  //   margin: 50px auto;
+  background-color: $background-color_2;
+  //   border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  .Crypto__Input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    select {
+      width: 20%;
+      height: 60%;
+      margin: 10px;
+      background-color: $background-color_3;
+      color: $color_1;
+      border: none;
+      border-radius: 5px;
+      font-size: 24px;
+      text-align: center;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      &::-ms-expand {
+        display: none;
+      }
+      option {
+        color: $color_1;
+        background-color: $background-color_3;
+      }
+    }
+  }
+  .convert-container {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    button {
+      // width: 70%;
+      // height: 50%;
+      padding: 10px 20px;
+      margin: 20px;
+      background-color: $background-color_4;
+      color: $color_2;
+      border: none;
+      border-radius: 5px;
+      font-size: 24px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        background-color: $background-color_5;
+      }
+    }
+  }
+  .Crypto__Result {
+    .result {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 20px;
+      background-color: $background-color_3;
+      color: $color_1;
+      border-radius: 5px;
+      font-size: 36px;
+      font-weight: bold;
+      span {
+        font-size: 18px;
+      }
+    }
+  }
+  .btc-logo {
+    width: 120px;
+    height: 120px;
+    background: url(https://cdn.pixabay.com/photo/2017/01/25/12/31/bitcoin-2007769_960_720.jpg);
+    background-size: contain;
+    margin: 20px;
+  }
+}
+
+.Crypto__Bg {
+  width: 50%;
+  height: 100%;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 600px) {
+  .Crypto__Calculator {
+    width: 100%;
+    height: 50vh;
+
+    .Crypto__Wrapper {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+
+  .Crypto__Bg {
+    display: none;
+  }
+}
