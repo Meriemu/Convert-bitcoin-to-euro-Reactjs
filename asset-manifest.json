@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/Convert-bitcoin-to-euro-Reactjs/static/css/main.d15803b4.css",
-    "main.js": "/Convert-bitcoin-to-euro-Reactjs/static/js/main.168f1f03.js",
-    "static/js/787.9a0d730a.chunk.js": "/Convert-bitcoin-to-euro-Reactjs/static/js/787.9a0d730a.chunk.js",
+    "main.css": "/Convert-bitcoin-to-euro-Reactjs/static/css/main.c47e9896.css",
+    "main.js": "/Convert-bitcoin-to-euro-Reactjs/static/js/main.acf414f5.js",
+    "static/media/btntoeuro3.png": "/Convert-bitcoin-to-euro-Reactjs/static/media/btntoeuro3.c53b2c65e1c014d52ef0.png",
     "index.html": "/Convert-bitcoin-to-euro-Reactjs/index.html",
-    "main.d15803b4.css.map": "/Convert-bitcoin-to-euro-Reactjs/static/css/main.d15803b4.css.map",
-    "main.168f1f03.js.map": "/Convert-bitcoin-to-euro-Reactjs/static/js/main.168f1f03.js.map",
-    "787.9a0d730a.chunk.js.map": "/Convert-bitcoin-to-euro-Reactjs/static/js/787.9a0d730a.chunk.js.map"
+    "main.c47e9896.css.map": "/Convert-bitcoin-to-euro-Reactjs/static/css/main.c47e9896.css.map",
+    "main.acf414f5.js.map": "/Convert-bitcoin-to-euro-Reactjs/static/js/main.acf414f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.d15803b4.css",
-    "static/js/main.168f1f03.js"
+    "static/css/main.c47e9896.css",
+    "static/js/main.acf414f5.js"
   ]
 }
